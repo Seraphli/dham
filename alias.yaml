@@ -1,0 +1,722 @@
+path: dota_lv
+antimage:
+  - antimage
+  - dfs
+  - difashi
+axe:
+  - axe
+  - fw
+  - fuwang
+bane:
+  - bane
+  - tkzy
+  - tongkuzhiyuan
+  - bn
+  - banni
+bloodseeker:
+  - bloodseeker
+  - xm
+  - xuemo
+crystal_maiden:
+  - crystalmaiden
+  - sjsn
+  - shuijingshinv
+  - bn
+  - bingnv
+drow_ranger:
+  - drowranger
+  - zeyx
+  - zhuoeryouxia
+  - hg
+  - heigong
+  - xh
+  - xiaohei
+earthshaker:
+  - earthshaker
+  - hdz
+  - handizhe
+  - xiaoniu
+  - xn
+  - shenniu
+  - sn
+juggernaut:
+  - juggernaut
+  - zz
+  - zhuzai
+  - js
+  - jiansheng
+mirana:
+  - mirana
+  - mln
+  - milana
+  - bh
+  - baihu
+nevermore:
+  - nevermore
+  - ym
+  - yingmo
+  - nwme
+  - naiwenmoer
+morphling:
+  - morphling
+  - btjl
+  - biantijingling
+  - sr
+  - shuiren
+phantom_lancer:
+  - phantomlancer
+  - hycms
+  - huanyingchangmaoshou
+  - hz
+  - houzi
+puck:
+  - puck
+  - pk
+  - pake
+  - xnl
+  - xiannvlong
+pudge:
+  - pudge
+  - pj
+  - paji
+  - tf
+  - tufu
+razor:
+  - razor
+  - lz
+  - leize
+  - dg
+  - diangun
+sand_king:
+  - sandking
+  - sw
+  - shawang
+  - sk
+storm_spirit:
+  - stormspirit
+  - fbzl
+  - fengbaozhiling
+  - lm
+  - lanmao
+sven:
+  - sven
+  - lljk
+  - liulangjianke
+  - sw
+  - siwen
+  - sewen
+tiny:
+  - tiny
+  - xx
+  - xiaoxiao
+  - sljr
+  - shanlingjuren
+vengefulspirit:
+  - vengefulspirit
+  - fczl
+  - fuchouzhiling
+  - fczh
+  - fuchouzhihun
+  - vs
+windrunner:
+  - windrunner
+  - fxz
+  - fengxingzhe
+zuus:
+  - zuus
+  - zs
+  - zhousi
+kunkka:
+  - kunkka
+  - kk
+  - kunka
+  - cz
+  - chuanzhang
+lina:
+  - ln
+  - lina
+  - hn
+  - huonv
+lich:
+  - lich
+  - wy
+  - wuyao
+lion:
+  - lion
+  - le
+  - laien
+  - emws
+  - emowushi
+shadow_shaman:
+  - shadowshaman
+  - aysm
+  - anyingsaman
+  - xy
+  - xiaoy
+slardar:
+  - slardar
+  - sld
+  - silada
+  - dyr
+  - dayuren
+tidehunter:
+  - tidehunter
+  - cxlr
+  - chaoxilieren
+witch_doctor:
+  - witchdoctor
+  - wy
+  - wuyi
+riki:
+  - riki
+  - lw
+  - liwan
+  - yc
+  - yinci
+enigma:
+  - enigma
+  - mt
+  - mituan
+tinker:
+  - tinker
+  - xbj
+  - xiubujiang
+  - tk
+  - tingke
+sniper:
+  - sniper
+  - jjs
+  - jujishou
+  - hq
+  - huoqiang
+necrolyte:
+  - necrolyte
+  - wyfs
+  - wenyifashi
+  - slfs
+  - silingfashi
+warlock:
+  - warlock
+  - ss
+  - shushi
+beastmaster:
+  - beastmaster
+  - sw
+  - shouwang
+queenofpain:
+  - queenofpain
+  - tknw
+  - tongkunvwang
+  - nw
+  - nvwang
+venomancer:
+  - venomancer
+  - jdss
+  - judushushi
+faceless_void:
+  - facelessvoid
+  - xkjm
+  - xukongjiamian
+  - jbl
+  - jibalian
+  - theworld
+  - zawarudo
+  - dio
+  - jojo
+skeleton_king:
+  - skeletonking
+  - mhdd
+  - minghundadi
+  - klw
+  - kulouwang
+death_prophet:
+  - deathprophet
+  - swxz
+  - siwangxianzhi
+  - dp
+phantom_assassin:
+  - phantomassassin
+  - hyck
+  - huanyingcike
+  - hc
+  - huanci
+  - pa
+pugna:
+  - pugna
+  - pgn
+  - pagena
+  - gf
+  - gufa
+templar_assassin:
+  - templarassassin
+  - stck
+  - shengtangcike
+  - ta
+viper:
+  - viper
+  - mjyl
+  - mingjieyalong
+  - dl
+  - dulong
+luna:
+  - luna
+  - ln
+  - yq
+  - yueqi
+dragon_knight:
+  - dragonknight
+  - lqs
+  - longqishi
+  - dk
+dazzle:
+  - dazzle
+  - dz
+  - daize
+  - ayms
+  - anyingmushi
+rattletrap:
+  - rattletrap
+  - ftjs
+  - fatiaojishi
+leshrac:
+  - leshrac
+  - lxk
+  - laxike
+  - ll
+  - laolu
+furion:
+  - furion
+  - mafurui
+  - xz
+  - xianzhi
+life_stealer:
+  - lifestealer
+  - shg
+  - shihungui
+  - xg
+  - xiaogou
+dark_seer:
+  - darkseer
+  - haxz
+  - heianxianzhe
+  - hx
+  - heixian
+clinkz:
+  - clinkz
+  - klkz
+  - kelingkezi
+  - klss
+  - kulousheshou
+  - xkl
+  - xiaokulou
+omniknight:
+  - omniknight
+  - qnqs
+  - quannengqishi
+  - sqs
+  - shengqishi
+enchantress:
+  - enchantress
+  - mhmn
+  - meihuomonv
+  - xlu
+  - xiaolu
+huskar:
+  - huskar
+  - hsk
+  - hasika
+  - slws
+  - shenlingwushi
+  - dcws
+  - danchewushi
+night_stalker:
+  - nightstalker
+  - aymw
+  - anyemowang
+  - ym
+  - yemo
+broodmother:
+  - broodmother
+  - ymzz
+  - yumuzhizhu
+  - zz
+  - zhizhu
+bounty_hunter:
+  - bountyhunter
+  - sjlr
+  - shangjinlieren
+weaver:
+  - weaver
+  - bzz
+  - bianzhizhe
+  - my
+  - mayi
+jakiro:
+  - jakiro
+  - jql
+  - jieqiluo
+  - stl
+  - shuangtoulong
+batrider:
+  - batrider
+  - bfqs
+  - bianfuqishi
+chen:
+  - chen
+spectre:
+  - spectre
+  - yg
+  - yougui
+doom_bringer:
+  - doombringer
+  - mrsz
+  - morishizhe
+ancient_apparition:
+  - ancientapparition
+  - ygbp
+  - yuangubingpo
+  - bh
+  - binghun
+  - bg
+  - binggun
+  - aa
+ursa:
+  - ursa
+  - xzs
+  - xiongzhanshi
+spirit_breaker:
+  - spiritbreaker
+  - lhr
+  - liehunren
+  - sb
+  - shabi
+gyrocopter:
+  - gyrocopter
+  - fj
+  - feiji
+alchemist:
+  - alchemist
+  - ljss
+  - lianjinshushi
+invoker:
+  - invoker
+  - qqz
+  - qiqiuzhe
+  - ke
+  - kaer
+silencer:
+  - silencer
+  - cmss
+  - chenmoshushi
+obsidian_destroyer:
+  - obsidiandestroyer
+  - mjszz
+  - mojingshenshizhe
+  - hn
+  - heiniao
+  - od
+lycan:
+  - lycan
+  - lr
+  - langren
+brewmaster:
+  - brewmaster
+  - jx
+  - jiuxian
+  - xmjx
+  - xiongmaojiuxian
+shadow_demon:
+  - shadowdemon
+  - ayem
+  - anyingemo
+  - dg
+  - dugou
+lone_druid:
+  - lonedruid
+  - xd
+  - xiongde
+  - dly
+  - deluyi
+chaos_knight:
+  - chaosknight
+  - hdqs
+  - hundunqishi
+  - ck
+meepo:
+  - meepo
+  - mb
+  - mibo
+treant:
+  - treant
+  - sjws
+  - shujingweishi
+  - ds
+  - dashu
+ogre_magi:
+  - ogremagi
+  - srmfs
+  - shurenmofashi
+  - lp
+  - lanpang
+undying:
+  - undying
+  - bxsw
+  - buxiushiwang
+  - sw
+  - shiwang
+rubick:
+  - rubick
+  - lbk
+  - labike
+  - mds
+  - modaoshi
+  - fy
+  - sg
+  - senge
+disruptor:
+  - disruptor
+  - grz
+  - ganraozhe
+  - se
+  - saer
+nyx_assassin:
+  - nyxassassin
+  - dxck
+  - dixuecike
+  - xq
+  - xiaoqiang
+naga_siren:
+  - nagasiren
+  - njhy
+  - najiahaiyao
+  - xnj
+  - xiaonajia
+keeper_of_the_light:
+  - keeperofthelight
+  - gfq
+  - guangfa
+  - dfs
+  - dafashi
+wisp:
+  - wisp
+  - xjl
+  - xiaojingling
+visage:
+  - visage
+  - wsj
+  - weisaji
+  - sxg
+  - shixianggui
+slark:
+  - slark
+  - slk
+  - silake
+  - xyr
+  - xiaoyuren
+medusa:
+  - medusa
+  - mds
+  - meidusha
+  - yj
+  - yijie
+  - sy
+  - sheyao
+troll_warlord:
+  - trollwarlord
+  - jmzj
+  - jumozhanjiang
+centaur:
+  - centaur
+  - brm
+  - banrenma
+  - rm
+  - renma
+magnataur:
+  - magnataur
+  - mm
+  - mengma
+  - ban
+shredder:
+  - shredder
+  - fmj
+  - famuji
+  - hmj
+  - huamuji
+bristleback:
+  - bristleback
+  - gbs
+  - gangbeishou
+  - gbz
+  - gangbeizhu
+  - zhu
+tusk:
+  - tusk
+  - jyhm
+  - juyahaimin
+  - hm
+  - haimin
+skywrath_mage:
+  - skywrathmage
+  - tnfs
+  - tiannufashi
+  - nr
+  - niaoren
+abaddon:
+  - abaddon
+  - ybd
+  - yabadun
+  - swqs
+  - siwangqishi
+  - dk
+  - aess
+  - aersasi
+elder_titan:
+  - eldertitan
+  - sgjs
+  - shanggujushen
+  - daniu
+  - dn
+legion_commander:
+  - legioncommander
+  - jtzjg
+  - juntuanzhihuiguan
+ember_spirit:
+  - emberspirit
+  - hjzl
+  - huijinzhiling
+  - hm
+  - huomao
+earth_spirit:
+  - earthspirit
+  - ddzl
+  - dadizhiling
+  - tm
+  - tumao
+terrorblade:
+  - terrorblade
+  - kblr
+  - kongbuliren
+  - tb
+phoenix:
+  - phoenix
+  - fh
+  - fenghuang
+oracle:
+  - oracle
+  - syz
+  - shenyuzhe
+techies:
+  - techies
+  - gcs
+  - gongchengshi
+  - zdr
+  - zhadanren
+winter_wyvern:
+  - winterwyvern
+  - hdfl
+  - handongfeilong
+  - bl
+  - binglong
+arc_warden:
+  - arcwarden
+  - tqswz
+  - tianqiongshouwangzhe
+  - hgswz
+  - huguangshouwangzhe
+  - dg
+  - diangou
+abyssal_underlord:
+  - abyssalunderlord
+  - nz
+  - niezhu
+  - dpg
+  - dapigu
+monkey_king:
+  - monkeyking
+  - qtds
+  - qitiandasheng
+  - ds
+  - dasheng
+  - swk
+  - sunwukong
+pangolier:
+  - pangolier
+  - sljs
+  - shilinjianshi
+  - gg
+  - gungun
+dark_willow:
+  - darkwillow
+  - xyfl
+  - xieyingfangling
+  - xxn
+  - xiaoxiannv
+grimstroke:
+  - grimstroke
+  - tym
+  - tianyamoke
+  - mk
+  - moke
+mars:
+  - mars
+  - mes
+  - maersi
+  - zsjs
+  - zhanshen
+void_spirit:
+  - voidspirit
+  - xwzl
+  - xuwuzhiling
+  - zm
+  - zimao
+snapfire:
+  - snapfire
+  - dyjs
+  - dianyanjueshou
+  - lnn
+  - laonainai
+hoodwink:
+  - hoodwink
+  - xss
+  - xiaosongshu
+  - ss
+  - songshu
+dawnbreaker:
+  - dawnbreaker
+  - pxcx
+  - poxiaochenxing
+  - dc
+  - dachui
+  - db
+marci:
+  - marci
+  - mx
+  - maxi
+  - nq
+  - nvquan
+primal_beast:
+  - primal_beast
+  - s
+  - shou
+muerta:
+  - muerta
+  - qybl
+  - qiongyingbiling
+  - qb
+  - qiongbi
+  - lnn
+  - laonainai
+ringmaster:
+  - ringmaster
+  - bxdw
+  - baixidawang
+  - xss
+  - xunshoushi
+  - xc
+  - xiaochou
+kez:
+  - kez
+  - kz
+  - kai
+  - nr
+  - niaoren
