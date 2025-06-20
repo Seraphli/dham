@@ -85,10 +85,10 @@ class Dota2AliasModifier:
             logger.info("✅ All done! Hero aliases have been successfully modified.")
         except Exception as e:
             logger.error(f"❌ Error: {e}")
-            sys.exit(1)
         finally:
             # Clean up temp directory
             shutil.rmtree(self.temp_dir, ignore_errors=True)
+            input("Press Enter to exit...")  # Keep the console open until user input
 
     def load_config(self):
         """Load the alias configuration file"""
@@ -662,13 +662,13 @@ class Dota2AliasModifier:
 
             # Prepare new NameAliases line with proper indent
             if alias_idx is not None:
-                indent = '\t\t'
+                indent = "\t\t"
                 lines[alias_idx] = f'{indent}"NameAliases"\t"{new_alias_str}"\n'
                 if self.verbose:
                     logger.debug(f"Replaced alias line at {alias_idx} for {hero_name}")
             else:
                 # insert before closing brace
-                indent = '\t\t'
+                indent = "\t\t"
                 insert_idx = end
                 lines.insert(insert_idx, f'{indent}"NameAliases"\t"{new_alias_str}"\n')
                 if self.verbose:
