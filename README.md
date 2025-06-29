@@ -2,6 +2,10 @@
 
 This tool modifies Dota 2 hero aliases based on a configuration file (alias.yaml) and packages the changes into a VPK file to be placed in the game directory.
 
+## IMPORTANT
+
+You need to add `-language $language` to your Dota 2 launch options for the changes to take effect. `$language` should match the `path` specified in your `alias.yaml` file (e.g., `-language schinese` for `dota_schinese` in `alias.yaml`).
+
 ## Features
 
 - Automatically downloads required CLI tools if they don't exist:
