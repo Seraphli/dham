@@ -635,18 +635,23 @@ class Dota2AliasModifier:
             alias_pattern = re.compile(r'^\t\t"NameAliases"\s+"([^"]*)"')
             alias_idx = None
             existing_aliases = []
+            alias_found = 0
             for i in range(start, end + 1):
                 m = alias_pattern.match(lines[i])
                 if m:
+                    alias_found += 1
                     alias_idx = i
-                    existing_aliases = [
-                        a.strip() for a in m.group(1).split(";") if a.strip()
-                    ]
+                    existing_aliases.extend(
+                        [a.strip() for a in re.split(r"[;,]", m.group(1)) if a.strip()]
+                    )
                     if self.verbose:
                         logger.debug(
                             f"Found existing aliases for {hero_name}: {existing_aliases}"
                         )
-                    break
+            if alias_found > 1:
+                logger.warning(
+                    f"⚠️ Warning: Multiple NameAliases found for {hero_name}."
+                )
 
             # Build merged alias list
             merged = existing_aliases.copy()
@@ -654,11 +659,13 @@ class Dota2AliasModifier:
                 val = alias.strip()
                 if val and val.lower() not in [a.lower() for a in merged]:
                     merged.append(val)
-                    logger.info(f"Added alias '{val}' for {hero_name}")
+                    if self.verbose:
+                        logger.info(f"Added alias '{val}' for {hero_name}")
                 else:
-                    logger.info(f"Skipped alias '{val}' for {hero_name}")
+                    if self.verbose:
+                        logger.info(f"Skipped alias '{val}' for {hero_name}")
 
-            new_alias_str = ";".join(merged)
+            new_alias_str = ",".join(merged)
 
             # Prepare new NameAliases line with proper indent
             if alias_idx is not None:

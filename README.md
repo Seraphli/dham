@@ -112,3 +112,11 @@ Or set the `DOTA2_PATH` environment variable.
 4. It modifies the hero aliases in the extracted file
 5. Using VPKEdit, it creates a new VPK file containing the modified file
 6. It places the new VPK in the appropriate game directory based on your configuration
+
+## How to build
+
+Build using pyinstaller:
+
+```
+pyinstaller --onefile dota2_alias_modifier.py --distpath dist
+```
